@@ -1,0 +1,5 @@
+Um framework para node.js muito utilizadoç
+Serve para criamos aplicações web;
+Nele podemos criar rotas, renderizar HTML, conectar a um banco de dados;
+O Express torna a criação de apps muito mais simplificada do que ocm os Core Modules.
+
