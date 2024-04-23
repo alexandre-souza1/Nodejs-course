@@ -2,6 +2,11 @@
 // precisamos realizar algumas modificacoes na implementacao do handlebars;
 // partials geralmente ficam em views/partials;
 // a sintaxe e: {{>partial}}
+// ----------------------------------------
+// CSS
+// a inclusao do CSS no handlebars e muito semelhante a que realizamos apenas com express;
+// precisamos definir a pasta dos arquivos estaticos;
+// e vamos linkar o CSS com o nosso layout em comum para todas as paginas.
 const express = require('express');
 const exphbs = require('express-handlebars');
 
@@ -13,6 +18,8 @@ const hbs = exphbs.create({
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
+
+app.use(express.static('public'))
 
 app.get('/dashboard', (req, res) => {
 
