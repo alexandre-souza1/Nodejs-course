@@ -1,0 +1,9 @@
+<h1>Hello {{user.name}} {{user.surname}}, {{user.age}}</h1>
+{{#if approved}}
+  <p>Congrats, you register is aproved!</p>
+{{else }}
+<p>Sorry, you need to update your register</p>
+{{/if}}
+{{#if auth}}
+  <p>You're authenticated, <a href="/dashboard">click here</a> to access the member area</p>
+{{/if}}
