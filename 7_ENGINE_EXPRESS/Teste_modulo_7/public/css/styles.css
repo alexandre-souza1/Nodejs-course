@@ -6,7 +6,7 @@ h1 {
   color: #ECF4D6;
 }
 
-img {
+.pokemon-image {
   width: 150px;
   height: 150px;
   border-radius: 8px;
@@ -25,6 +25,31 @@ img {
   width: 250px;
   background-color: #ECF4D6;
   margin: 4px;
+}
+
+.pokemon-token {
+  width: 100%;
+  background-color: #ECF4D6;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+
+.token-text {
+  margin-left: 10px;
+}
+
+.token-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  border: solid 0.5px #9AD0C2;
+  background-color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 .container .pokemon-grid {
