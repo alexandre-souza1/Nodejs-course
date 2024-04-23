@@ -1,0 +1,45 @@
+body {
+  background-color: #2D9596;
+}
+
+h1 {
+  color: #ECF4D6;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  border: solid 0.5px #9AD0C2;
+  background-color: white;
+}
+
+.pokemon-box {
+  border: solid 1px #9AD0C2;
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  background-color: #ECF4D6;
+  margin: 4px;
+}
+
+.container .pokemon-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Padrão para uma coluna em telas pequenas */
+}
+
+@media screen and (min-width: 600px) {
+  .container .pokemon-grid {
+    grid-template-columns: 1fr 1fr; /* Dois itens por linha em telas médias */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container .pokemon-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Quatro itens por linha em telas extra grandes */
+  }
+}
