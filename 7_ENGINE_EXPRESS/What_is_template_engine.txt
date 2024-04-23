@@ -1,0 +1,7 @@
+O que é Template Engine?
+Uma forma de deixar o HTML dinâmico, inserindo variáveis do back no front end;
+Podemos também criar layouts, que são reaproveitados;
+É essencial para projetos que usam banco de dados, que não são estáticos;
+Temos diversos disponíveis: EJS, Pug e Handlebars, por exemplo;
+Todos atingem o mesmo objetivo, porém há algumas diferenças de setup e funcionalidades.
+<%= %> is a type of, which is used in ruby bootcamp

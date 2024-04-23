@@ -1,0 +1,26 @@
+O handlebar é uma das templates engines mais utilizadas;
+colocamos os dados dinâmicos no HTML entre {{}} para serem impressos;
+podemos criar condicioniais e tambem loops no template;
+conhecido pela sua sintaxe limpa no front, nos força a não executar lógica no html;
+o nome do pacote é express-handlebars.
+
+
+Houve uma pequena alteração no Handlebars, que vai quebrar o código das aulas seguintes
+
+Para reparar basta trocar esta linha de código:
+
+
+
+app.engine('handlebars', exphbs())
+
+
+
+Por esta:
+
+
+
+app.engine('handlebars', exphbs.engine())
+
+
+
+Basicamente, precisamos invocar este método engine, que antes era opicional para realizar algumas configurações extras, agora ele é obrigatório para o funcionamento do pacote
