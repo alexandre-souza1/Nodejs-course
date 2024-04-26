@@ -1,0 +1,6 @@
+O MySQL é um SGBD (Sistema Gerenciador de Banco de Dados);
+Que vai nos ajudar a trabalhar com bancos relacionais;
+Tambem é o mais utilizado atualmente em sistema e aplicações;
+Muitos projetos de node.js utilizam mySQL;
+Precisamos instalar o software e deixar ele em execução par que o Node possa se conectar aos bancos que temos disponiveis;
+
